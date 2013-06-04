@@ -19,7 +19,10 @@ DESTDIR     = ../bin
 OBJECTS_DIR = ../obj
 LIB_DIR     = ../lib
 
-INCLUDEPATH += ../include
+INCLUDEPATH += \
+../include \
+../../CStrUtil/include \
+../../CZ80/include \
 
 unix:LIBS += \
 -L$$LIB_DIR \
