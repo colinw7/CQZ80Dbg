@@ -23,6 +23,7 @@ INCLUDEPATH += \
 ../include \
 ../../CStrUtil/include \
 ../../CZ80/include \
+../../CUtil/include \
 
 unix:LIBS += \
 -L$$LIB_DIR \
