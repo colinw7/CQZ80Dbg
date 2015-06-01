@@ -2,9 +2,13 @@ TEMPLATE = app
 
 TARGET = CQZ80Dbg
 
+QT += widgets
+
 DEPENDPATH += .
 
 INCLUDEPATH += . ../include
+
+QMAKE_CXXFLAGS += -std=c++11
 
 # Input
 SOURCES += \
