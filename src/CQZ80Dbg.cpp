@@ -636,8 +636,9 @@ void
 CQZ80Dbg::
 postStepProc()
 {
-  while (qApp->hasPendingEvents())
-    qApp->processEvents();
+  //while (qApp->hasPendingEvents())
+  //  qApp->processEvents();
+  qApp->processEvents();
 }
 
 void
